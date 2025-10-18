@@ -39,7 +39,7 @@ export default function DataTable() {
   const [expandedRows, setExpandedRows] = useState(new Set());
   const [onlyActivo, setonlyActivo] = useState(true);
 
-  const endpoint = import.meta.env.VITE_API_ENDPOINT || "";
+  const endpoint = import.meta.env.VITE_API_PUBLIC_ENDPOINT || "";
 
   useEffect(() => {
     if (!endpoint) {
