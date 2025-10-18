@@ -136,7 +136,7 @@ export default function DataTable() {
     <div className="card">
       <div className="toolbar">
         <div className="left-controls">
-          <BotonCrear />
+          {/* <BotonCrear /> */}
           <CheckBoxActivos
             onlyActivo={onlyActivo}
             setonlyActivo={setonlyActivo}
